@@ -1,0 +1,346 @@
+:root {
+  --logo-color: #2196f3;
+  --background-color: #ffffff;
+  --text-color-1: black;
+  --text-color-4: #212121;
+  --box-1-color: #2f303a;
+  --box-2-color: #f5f4fa;
+  --text-color-3: #757575;
+  --text-color-2: #ffffff;
+  --border-color: #ececec;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color-4);
+  line-height: 1.16;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo-menu .logo .logo-color .logo-color-2 {
+  font-family: Raleway;
+  text-decoration: none;
+  font-size: 26px;
+}
+.main-link {
+  font-family: Raleway;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.logo-color {
+  color: #2196f3;
+  font-weight: 700px;
+}
+.logo-color-2 {
+  color: black;
+  font-weight: 700px;
+}
+.logo-color-3 {
+  color: white;
+  font-weight: 700px;
+}
+
+.menu-link,
+.link {
+  color: var(--text-color-4);
+  text-decoration: none;
+  list-style-type: none;
+}
+.contact {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text-color-4);
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-footer {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text-color-4);
+}
+.text-contact {
+  color: var(--text-color-3);
+}
+.link:hover {
+  color: var(--logo-color);
+}
+.text-contact-2:hover {
+  color: var(--logo-color);
+}
+.text-contact:hover {
+  color: var(--logo-color);
+}
+.main-block {
+  background-color: var(--box-1-color);
+  width: 1600px;
+  height: 600px;
+}
+h1 {
+  font-weight: 900px;
+  font-size: 44px;
+  color: var(--text-color-2);
+  line-height: 1.36;
+  height: 120px;
+  width: 696px;
+}
+.bottom-box {
+  display: flex;
+  justify-content: center;
+}
+.button-block {
+  display: block;
+  display: block;
+  background-color: var(--logo-color);
+  box-shadow: rgba(0, 0, 0, 0.15);
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+.text-button {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700px;
+  color: var(--text-color-2);
+}
+.description-list {
+  display: flex;
+  font-size: 14px;
+  list-style-type: none;
+}
+p {
+  font-weight: 400px;
+  color: var(--text-color-3);
+  line-height: 1.71;
+  justify-content: flex-start;
+}
+h5 {
+  font-style: bold;
+  font-weight: 700px;
+  color: var(--text-color-4);
+  line-height: 1.14;
+}
+h2 {
+  color: var(--text-color-4);
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 1.16;
+  text-align: center;
+  padding-top: 94px;
+}
+.image-list {
+  list-style-type: none;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.second-block {
+  background-color: var(--box-2-color);
+  width: 1600px;
+  height: 648px;
+}
+.image-list-2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 1.18;
+  color: var(--text-color-4);
+}
+.name-description {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.18;
+  color: var(--text-color-3);
+}
+.footer-block {
+  background-color: var(--box-1-color);
+}
+address {
+  color: var(--text-color-2);
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 3%;
+}
+.text-contact-2 {
+  color: var(--text-color-2);
+  opacity: 0.6;
+}
+.button-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 56px;
+}
+
+.button-box1,
+.button-box2,
+.button-box3,
+.button-box4 {
+  background-color: var(--box-2-color);
+  border-color: var(--box-2-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+}
+.button-box1:hover {
+  background-color: var(--logo-color);
+  color: var(--text-color-2);
+}
+.button-box2:hover {
+  background-color: var(--logo-color);
+  color: var(--text-color-2);
+}
+.button-box3:hover {
+  background-color: var(--logo-color);
+  color: var(--text-color-2);
+}
+.button-box4:hover {
+  background-color: var(--logo-color);
+  color: var(--text-color-2);
+}
+.text-box {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.62;
+  font-size: medium;
+}
+.pictures-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.headline {
+  color: var(--text-color-4);
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 2;
+}
+.description {
+  color: var(--text-color-3);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.8;
+}
+.container {
+  width: 1600px;
+  margin: auto;
+}
+.page-menu {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  height: 80px;
+  max-width: 1600px;
+}
+.logo {
+  display: flex;
+  padding-left: 215px;
+}
+.menu-link {
+  display: flex;
+  padding-left: 93px;
+}
+.menu-link .link {
+  display: block;
+  padding: 46px;
+}
+.contact .link {
+  display: block;
+  padding: 50px;
+}
+.headline-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.box-description {
+  max-width: 1600px;
+}
+.description-list {
+  display: flex;
+  padding-top: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+p {
+  display: flex;
+  width: 270px;
+  height: 75px;
+}
+.item {
+  padding: 30px;
+}
+.image-item {
+  padding: 30px;
+}
+.image-item-2 {
+  padding: 30px;
+}
+.card {
+  background-color: var(--text-color-2);
+  border-radius: 1px 1px 3px 3px;
+  width: 270px;
+  height: 368;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.name-description {
+  justify-content: center;
+}
+.footer-block {
+  align-items: center;
+  height: 252px;
+}
+.logo-footer {
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 20px;
+}
+.contact-footer,
+address {
+  padding: 9px;
+  padding-left: 215px;
+}
+.button-item {
+  padding: 8px;
+}
+.button-box1 {
+  width: 121px;
+}
+.button-box2 {
+  width: 93px;
+}
+.button-box3 {
+  width: 114px;
+}
+.button-box4 {
+  width: 91px;
+}
+.picture-card {
+  flex-basis: calc(100% / 3);
+}
