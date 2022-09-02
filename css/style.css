@@ -137,12 +137,11 @@ h2 {
   font-weight: 700px;
   line-height: 1.16;
   text-align: center;
-  padding-top: 94px;
 }
 .image-list {
   list-style-type: none;
   display: flex;
-  padding-top: 50px;
+
   justify-content: center;
 }
 .second-block {
@@ -186,8 +185,6 @@ address {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 56px;
 }
 
 .button-box1,
@@ -242,7 +239,7 @@ address {
   line-height: 1.8;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: auto;
 }
 .page-menu {
@@ -254,19 +251,15 @@ address {
 }
 .logo {
   display: flex;
-  padding-left: 215px;
 }
 .menu-link {
   display: flex;
-  padding-left: 93px;
 }
 .menu-link .link {
   display: block;
-  padding: 46px;
 }
 .contact .link {
   display: block;
-  padding: 50px;
 }
 .headline-text {
   display: flex;
@@ -279,7 +272,7 @@ address {
 }
 .description-list {
   display: flex;
-  padding-top: 94px;
+
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -288,15 +281,7 @@ p {
   width: 270px;
   height: 75px;
 }
-.item {
-  padding: 30px;
-}
-.image-item {
-  padding: 30px;
-}
-.image-item-2 {
-  padding: 30px;
-}
+
 .card {
   background-color: var(--text-color-2);
   border-radius: 1px 1px 3px 3px;
@@ -306,8 +291,6 @@ p {
 .name {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
 }
 .name-description {
   justify-content: center;
@@ -316,16 +299,7 @@ p {
   align-items: center;
   height: 252px;
 }
-.logo-footer {
-  padding-top: 60px;
-  padding-left: 215px;
-  padding-bottom: 20px;
-}
-.contact-footer,
-address {
-  padding: 9px;
-  padding-left: 215px;
-}
+
 .button-item {
   padding: 8px;
 }
