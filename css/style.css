@@ -19,7 +19,6 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 a {
   text-decoration: none;
@@ -81,7 +80,7 @@ a {
 }
 .main-block {
   background-color: var(--box-1-color);
-  width: 1600px;
+
   height: 600px;
 }
 h1 {
@@ -146,7 +145,7 @@ h2 {
 }
 .second-block {
   background-color: var(--box-2-color);
-  width: 1600px;
+
   height: 648px;
 }
 .image-list-2 {
@@ -175,7 +174,6 @@ address {
   font-weight: 400px;
   line-height: 1.71;
   font-style: normal;
-  letter-spacing: 3%;
 }
 .text-contact-2 {
   color: var(--text-color-2);
@@ -249,18 +247,14 @@ address {
   height: 80px;
   max-width: 1600px;
 }
+
 .logo {
   display: flex;
 }
 .menu-link {
   display: flex;
 }
-.menu-link .link {
-  display: block;
-}
-.contact .link {
-  display: block;
-}
+
 .headline-text {
   display: flex;
   align-items: center;
