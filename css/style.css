@@ -59,28 +59,26 @@ a {
   text-decoration: none;
   color: var(--text-color-4);
   display: flex;
-  justify-content: flex-end;
+ 
 }
 .contact-footer {
   list-style-type: none;
   text-decoration: none;
   color: var(--text-color-4);
 }
-.text-contact {
+.contact .link {
   color: var(--text-color-3);
+}
+.contact-footer .link {
+  color: var(--text-color-2);
+  opacity: 0.6;
 }
 .link:hover {
   color: var(--logo-color);
 }
-.text-contact-2:hover {
-  color: var(--logo-color);
-}
-.text-contact:hover {
-  color: var(--logo-color);
-}
+
 .main-block {
   background-color: var(--box-1-color);
-
   height: 600px;
 }
 h1 {
@@ -175,10 +173,7 @@ address {
   line-height: 1.71;
   font-style: normal;
 }
-.text-contact-2 {
-  color: var(--text-color-2);
-  opacity: 0.6;
-}
+
 .button-list {
   list-style-type: none;
   display: flex;
