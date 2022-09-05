@@ -19,6 +19,7 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -35,15 +36,14 @@ a {
   border-bottom: 1px solid var(--border-color);
   height: 80px;
   width: 100%;
+  justify-content: center;
 }
 .logo-menu .logo .logo-color .logo-color-2 {
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
 }
-.logo {
-  display: flex;
-}
+
 .main-link {
   font-family: Raleway;
   text-decoration: none;
@@ -74,6 +74,7 @@ a {
   text-decoration: none;
   color: var(--text-color-4);
   display: flex;
+  padding: 50px;
 }
 .contact-footer {
   list-style-type: none;
@@ -94,15 +95,16 @@ a {
   background-color: var(--box-1-color);
   height: 600px;
   width: 100%;
+  text-align: center;
 }
 h1 {
   font-weight: 900px;
   font-size: 44px;
   color: var(--text-color-2);
   line-height: 1.36;
-  height: 120px;
-  width: 696px;
+  justify-content: center;
 }
+
 .button-block {
   background-color: var(--logo-color);
   box-shadow: rgba(0, 0, 0, 0.15);
@@ -179,7 +181,6 @@ h2 {
   color: var(--text-color-3);
 }
 .footer-block {
-  align-items: flex-start;
   height: 252px;
   background-color: var(--box-1-color);
 }
@@ -254,7 +255,7 @@ address {
   text-align: center;
 }
 .box-description {
-  max-width: 1600px;
+  width: 100%;
 }
 .description-list {
   display: flex;
