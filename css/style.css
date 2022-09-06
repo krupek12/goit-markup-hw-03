@@ -35,7 +35,6 @@ a {
   align-items: center;
   border-bottom: 1px solid var(--border-color);
   height: 80px;
-  width: 100%;
   justify-content: center;
 }
 .logo-menu .logo .logo-color .logo-color-2 {
@@ -91,13 +90,18 @@ a {
 .link:hover {
   color: var(--logo-color);
 }
-.main-block {
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: var(--box-1-color);
   height: 600px;
   width: 100%;
-  text-align: center;
 }
+
 h1 {
+  display: flex;
   font-weight: 900px;
   font-size: 44px;
   color: var(--text-color-2);
@@ -121,6 +125,7 @@ h1 {
   font-weight: 700px;
   color: var(--text-color-2);
   display: flex;
+  padding: 50px;
 }
 .text-button {
   color: var(--text-color-2);
@@ -139,6 +144,10 @@ p {
   display: flex;
   width: 270px;
   height: 75px;
+  padding-top: 10px;
+}
+.item {
+  padding: 30px;
 }
 h5 {
   font-style: bold;
@@ -152,18 +161,22 @@ h2 {
   font-weight: 700px;
   line-height: 1.16;
   text-align: center;
+  padding-bottom: 50px;
 }
 .image-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
-.second-block {
+.image-item {
+  padding: 30px;
+}
+.our-team {
   background-color: var(--box-2-color);
   height: 648px;
   width: 100%;
 }
-.image-list-2 {
+.our-team-img {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -250,10 +263,6 @@ address {
   font-weight: 400px;
   line-height: 1.8;
 }
-.main-block h1 {
-  display: flex;
-  text-align: center;
-}
 .box-description {
   width: 100%;
 }
@@ -290,4 +299,7 @@ address {
 }
 .picture-card {
   flex-basis: calc(100% / 3);
+}
+.section {
+  padding: 94px;
 }
