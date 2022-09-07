@@ -19,8 +19,8 @@ body {
 }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 a {
   text-decoration: none;
@@ -90,7 +90,6 @@ a {
   font-weight: 500px;
   font-size: 14px;
   line-height: 1.14;
- 
 }
 .contact .link {
   color: var(--text-color-3);
@@ -272,6 +271,7 @@ address {
   font-size: 16px;
   line-height: 1.62;
   font-size: medium;
+  margin: 8px;
 }
 .pictures-list {
   list-style-type: none;
@@ -301,8 +301,8 @@ address {
 }
 .description-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-direction: row;
 }
 .card {
   background-color: var(--text-color-2);
