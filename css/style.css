@@ -33,6 +33,7 @@ a {
 .page-menu {
   display: flex;
   align-items: center;
+  flex-direction: row;
   border-bottom: 1px solid var(--border-color);
   height: 80px;
   justify-content: center;
@@ -101,12 +102,16 @@ a {
 }
 
 h1 {
-  display: flex;
+  display: block;
   font-weight: 900px;
   font-size: 44px;
   color: var(--text-color-2);
   line-height: 1.36;
   justify-content: center;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
 }
 
 .button-block {
@@ -125,7 +130,6 @@ h1 {
   font-weight: 700px;
   color: var(--text-color-2);
   display: flex;
-  padding: 50px;
 }
 .text-button {
   color: var(--text-color-2);
@@ -144,7 +148,6 @@ p {
   display: flex;
   width: 270px;
   height: 75px;
-  padding-top: 10px;
 }
 .item {
   padding: 30px;
@@ -161,16 +164,18 @@ h2 {
   font-weight: 700px;
   line-height: 1.16;
   text-align: center;
-  padding-bottom: 50px;
 }
 .image-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
+
 .image-item {
-  padding: 30px;
+  display: block;
+  margin: 30px;
 }
+
 .our-team {
   background-color: var(--box-2-color);
   height: 648px;
