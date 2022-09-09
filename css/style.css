@@ -19,8 +19,8 @@ body {
 }
 * {
   box-sizing: border-box;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 a {
   text-decoration: none;
@@ -187,7 +187,7 @@ p {
   height: 75px;
 }
 .item {
-  padding: 30px;
+  margin: 30px;
 }
 h5 {
   font-style: bold;
@@ -243,13 +243,17 @@ h2 {
   font-weight: 500px;
   line-height: 1.18;
   color: var(--text-color-4);
+  display: flex;
+  justify-content: center;
 }
 .name-description {
   font-size: 16px;
   font-weight: 400px;
   line-height: 1.18;
   color: var(--text-color-3);
+  justify-content: center;
 }
+
 .footer-block {
   display: flex;
   flex-direction: column;
@@ -337,6 +341,7 @@ address {
   justify-content: flex-start;
   flex-direction: column;
 }
+/*
 .description {
   color: var(--text-color-3);
   font-size: 16px;
@@ -344,20 +349,12 @@ address {
   line-height: 1.8;
   text-align: left;
 }
-/*
 .card {
   background-color: var(--text-color-2);
   border-radius: 1px 1px 3px 3px;
   width: 270px;
   height: 368;
 }*/
-.name {
-  display: flex;
-  justify-content: center;
-}
-.name-description {
-  justify-content: center;
-}
 
 .button-box1 {
   width: 121px;
