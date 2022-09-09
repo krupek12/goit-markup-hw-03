@@ -67,13 +67,19 @@ a {
   text-decoration: none;
   list-style-type: none;
   display: flex;
-  padding: 46px;
+}
+.menu-link,
+.gap {
+  margin: 46px;
+  align-items: flex-start;
 }
 .menu-link {
   font-weight: 500px;
   font-size: 14px;
   line-height: 1.14;
+  margin: 46px;
 }
+
 .contact {
   list-style-type: none;
   text-decoration: none;
@@ -83,6 +89,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .contact-footer {
   list-style-type: none;
   text-decoration: none;
@@ -94,10 +101,12 @@ a {
 .contact .link {
   color: var(--text-color-3);
 }
+
 .contact-footer .link {
   color: var(--text-color-2);
   opacity: 0.6;
 }
+
 .link:hover {
   color: var(--logo-color);
 }
@@ -178,6 +187,7 @@ h2 {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .image-list {
   list-style-type: none;
   display: flex;
@@ -200,12 +210,15 @@ h2 {
   justify-content: center;
 }
 .card {
-  width: 270px;
+  max-width: 270px;
   height: 368px;
-  box-shadow: 0px, 2px rgba(0, 0, 0, 0.2), 0px, 1px rgba(0, 0, 0, 0.14), 0px,
-    1px rgba(0, 0, 0, 0.12);
-  margin: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: var(--background-color);
+  box-shadow: 0, 0, 2px, 2px rgba(0, 0, 0, 0.2), 0, 0, 1px,
+    1px rgba(0, 0, 0, 0.14), 0, 0, 1px, 1px rgba(0, 0, 0, 0.12);
 }
+
 .name {
   font-size: 16px;
   font-weight: 500px;
@@ -220,7 +233,7 @@ h2 {
 }
 .footer-block {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   height: 252px;
   background-color: var(--box-1-color);
 }
@@ -231,6 +244,8 @@ address {
   line-height: 1.71;
   font-style: normal;
 }
+/*portfolio*/
+
 .main-wrapper {
   width: 100%;
 }
@@ -280,10 +295,17 @@ address {
   justify-content: center;
 }
 .picture-card {
-  flex-basis: calc(100% / 3);
-  border: 0 1 1 1;
+  flex-basis: calc((100%-60) / 3);
+  border: 0, 1px, 1px, 1px solid var(--border-card);
+  background-color: var(--background-color);
 }
-
+.box {
+  max-width: 370px;
+  height: 110px;
+  border-right: 1px solid var(--border-card);
+  border-bottom: 1px solid var(--border-card);
+  border-left: 1px solid var(--border-card);
+}
 .headline {
   color: var(--text-color-4);
   font-size: 18px;
