@@ -41,7 +41,6 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 93px;
   padding: 0;
   border-bottom: 1px solid var(--border-color);
   height: 80px;
@@ -64,7 +63,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   padding: 0;
-  margin-right: 93px;
+  margin: 0;
 }
 .logo-color {
   color: #2196f3;
@@ -84,6 +83,7 @@ ul {
   text-decoration: none;
   list-style-type: none;
   display: flex;
+  padding: 0;
 }
 
 .menu-link {
@@ -97,10 +97,7 @@ ul {
   margin: 0;
   width: 261px;
 }
-/*
-.page-menu {
-  margin: 0 215px 0 215px;
-}*/
+
 .contact {
   list-style-type: none;
   text-decoration: none;
@@ -110,7 +107,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   gap: 50px;
-  margin-left: auto;
 }
 
 .contact-footer {
@@ -128,6 +124,7 @@ ul {
 .contact-footer .link {
   color: var(--text-color-2);
   opacity: 0.6;
+  margin-bottom: 9px;
 }
 
 .link:hover {
@@ -177,30 +174,34 @@ h1 {
   align-items: center;
 }
 .box-description {
-  width: 1200px;
   display: flex;
   justify-content: center;
-  padding: 94px 0 94px 0;
-  margin: auto;
+}
+.lorem-ipsum {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-direction: row;
 }
 .item-list {
   display: flex;
   font-size: 14px;
   list-style-type: none;
+  margin: 0 auto;
   justify-content: center;
-  flex-direction: row;
-  padding-bottom: 94px;
 }
-
+.item:not(:last-child) {
+  margin-right: 30px;
+}
 .lorem {
   font-weight: 400px;
+  font-size: 14px;
   color: var(--text-color-3);
   line-height: 1.72;
   letter-spacing: 3%;
-  justify-content: flex-start;
   display: flex;
-  width: 270px;
-  height: 75px;
+  justify-content: center;
+  flex-basis: calc((100% - 90px) / 4);
 }
 h5 {
   font-size: 14px;
@@ -223,6 +224,7 @@ h2 {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 .image-item {
@@ -259,6 +261,7 @@ h2 {
   color: var(--text-color-4);
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .name-description {
   font-size: 16px;
@@ -267,7 +270,10 @@ h2 {
   color: var(--text-color-3);
   justify-content: center;
 }
-
+figcaption {
+  text-align: center;
+  margin-top: 30px;
+}
 .footer-block {
   display: flex;
   flex-direction: column;
@@ -280,6 +286,8 @@ address {
   font-weight: 400px;
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 /*portfolio*/
 
@@ -335,14 +343,11 @@ address {
 }
 .portfolio-card {
   flex-basis: ((100% - 60px) / 3);
-  border-bottom: 1px solid var(--border-card);
-  border-left: 1px solid var(--border-card);
-  border-right: 1px solid var(--border-card);
-  background-color: var(--background-color);
   margin-bottom: 30px;
-  height: 404px;
 }
-
+img {
+  display: block;
+}
 .headline {
   color: var(--text-color-4);
   font-size: 18px;
@@ -354,21 +359,14 @@ address {
   display: inline-block;
   justify-content: flex-start;
   flex-direction: column;
+  border-bottom: 1px solid var(--border-card);
+  border-left: 1px solid var(--border-card);
+  border-right: 1px solid var(--border-card);
+  height: 110px;
+  width: 370px;
+  margin-top: 0;
+  padding-top: 20px;
 }
-/*
-.description {
-  color: var(--text-color-3);
-  font-size: 16px;
-  font-weight: 400px;
-  line-height: 1.8;
-  text-align: left;
-}
-.card {
-  background-color: var(--text-color-2);
-  border-radius: 1px 1px 3px 3px;
-  width: 270px;
-  height: 368;
-}*/
 
 .button-box1 {
   width: 121px;
