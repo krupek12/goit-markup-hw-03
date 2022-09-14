@@ -34,7 +34,7 @@ ul {
 .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0;
+  padding: 0 15px;
   margin: auto;
 }
 
@@ -69,15 +69,15 @@ ul {
 }
 .logo-color {
   color: #2196f3;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .logo-color-2 {
   color: black;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .logo-color-3 {
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .menu-link,
 .link {
@@ -91,7 +91,7 @@ ul {
 .menu-link {
   display: flex;
   flex-direction: row;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   gap: 46px;
@@ -105,7 +105,7 @@ ul {
   text-decoration: none;
   color: var(--text-color-4);
   display: flex;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   gap: 50px;
@@ -116,7 +116,7 @@ ul {
   list-style-type: none;
   text-decoration: none;
   color: var(--text-color-4);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -143,11 +143,16 @@ nav {
   text-align: center;
   background-color: var(--box-1-color);
   height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/background.jpg");
+  width: 1600px;
 }
 
 h1 {
   display: block;
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 44px;
   color: var(--text-color-2);
   line-height: 1.36;
@@ -172,7 +177,7 @@ h1 {
   display: block;
   text-align: center;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   color: var(--text-color-2);
 }
 .text-button {
@@ -200,19 +205,20 @@ h1 {
   margin-right: 30px;
 }
 .lorem {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   color: var(--text-color-3);
-  line-height: 1.72;
-  letter-spacing: 3%;
+  line-height: 1.75;
+  flex-wrap: wrap;
+  letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-
+  width: 270px;
   flex-basis: calc((100% - 90px) / 4);
 }
 h5 {
   font-size: 14px;
-  font-weight: 700px;
+  font-weight: 700;
   color: var(--text-color-4);
   line-height: 1.14;
   margin-bottom: 10px;
@@ -221,7 +227,7 @@ h5 {
 h2 {
   color: var(--text-color-4);
   font-size: 36px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
@@ -290,7 +296,7 @@ figcaption {
 address {
   color: var(--text-color-2);
   font-size: 14px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 1.71;
   font-style: normal;
   margin-top: 20px;
@@ -336,7 +342,7 @@ address {
   color: var(--text-color-2);
 }
 .button-list .button-item {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   font-size: medium;
@@ -347,6 +353,8 @@ address {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 .portfolio-card {
   flex-basis: ((100% - 60px) / 3);
@@ -358,7 +366,7 @@ img {
 .headline {
   color: var(--text-color-4);
   font-size: 18px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 2;
   text-align: left;
   gap: 4px;
