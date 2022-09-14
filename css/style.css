@@ -16,10 +16,11 @@ body {
   background-color: var(--background-color);
   color: var(--text-color-4);
   line-height: 1.16;
+  margin: 0 auto;
 }
 * {
   box-sizing: border-box;
-  margin: 0 auto;
+  /* margin: 0 auto;*/
 }
 a {
   text-decoration: none;
@@ -44,7 +45,8 @@ ul {
   padding: 0;
   border-bottom: 1px solid var(--border-color);
   height: 80px;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 93px;
 }
 
 .logo-menu .logo .logo-color .logo-color-2 {
@@ -107,6 +109,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   gap: 50px;
+  margin-left: auto;
 }
 
 .contact-footer {
@@ -129,6 +132,9 @@ ul {
 
 .link:hover {
   color: var(--logo-color);
+}
+nav {
+  margin: 0;
 }
 .banner {
   display: flex;
@@ -201,6 +207,7 @@ h1 {
   letter-spacing: 3%;
   display: flex;
   justify-content: center;
+
   flex-basis: calc((100% - 90px) / 4);
 }
 h5 {
