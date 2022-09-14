@@ -146,7 +146,13 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/background.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/background.jpg");
+
   width: 1600px;
 }
 
